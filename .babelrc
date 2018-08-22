@@ -1,0 +1,36 @@
+{
+  "presets": [
+      [
+        "env",
+        {
+          "es2015": {
+            "modules": false
+          }
+        }
+      ],
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-decorators-legacy"
+    ],
+    "env": {
+      "production": {
+        "only": [
+          "app",
+          "vendor"
+        ],
+        "plugins": [
+          "transform-react-remove-prop-types",
+          "transform-react-constant-elements",
+          "transform-react-inline-elements"
+        ]
+      },
+      "test": {
+        "plugins": [
+          "transform-es2015-modules-commonjs",
+          "dynamic-import-node"
+        ]
+      }
+    }
+}

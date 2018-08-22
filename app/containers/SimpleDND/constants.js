@@ -1,0 +1,9 @@
+export const INIT_BORDERS = 'INIT_BORDERS';
+export const MOVE_BORDERS = 'MOVE_BORDERS';
+export const MOVE_CARDS_INSIDE_DESK = 'MOVE_CARDS_INSIDE_DESK';
+export const MOVE_CARDS_OUTSIDE_DESK = 'MOVE_CARDS_OUTSIDE_DESK';
+export const DELETE_DESK = 'DELETE_DESK';
+export const DELETE_CARD = 'DELETE_CARD';
+export const ADD_DESK = 'ADD_DESK';
+export const ADD_CARD = 'ADD_CARD';
+export const CHANGE_CARD_TEXT = 'CHANGE_CARD_TEXT';

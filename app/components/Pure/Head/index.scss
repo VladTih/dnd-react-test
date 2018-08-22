@@ -1,0 +1,65 @@
+#app {
+  .head__menu_open {
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    margin-left: 150px;
+  }
+
+  .head__menu_hide {
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+  }
+
+  .head__toolbar_open {
+    -moz-transition: all .5s ease-in-out ;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out !important;
+    overflow: hidden !important;
+    span{
+
+      div{
+
+        div{
+          white-space: nowrap;
+
+          div{
+            opacity:1;
+            -webkit-transition: opacity 1s ease-out 0.5s;
+            -moz-transition: opacity 1s ease-out 0.5s;
+            -o-transition: opacity 1s ease-out 0.5s;
+            transition: opacity 1s ease-out 0.5s;
+          }
+        }
+      }
+    }
+  }
+
+  .head__toolbar_hide {
+    -moz-transition: all .5s ease-in-out ;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .3s ease-in-out !important;
+    transform: translate(-0px, 0px) !important;
+    width: 60px !important;
+    overflow: hidden !important;
+
+     span{
+       height: 48px;
+         div{
+
+           div{
+
+             div{
+               opacity:1;
+               -webkit-transition: opacity 1s ease-out 0.5s;
+               -moz-transition: opacity 1s ease-out 0.5s;
+               -o-transition: opacity 1s ease-out 0.5s;
+               transition: opacity 1s ease-out 0.5s;
+             }
+           }
+         }
+       }
+
+  }
+}
